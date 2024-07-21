@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "sustainagent"
+version = "0.1.0"
+description = "Agents to identify carboon footprint and reduce it"
+authors = ["kaven96 <kireev.artur@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
